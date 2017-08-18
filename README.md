@@ -1,4 +1,4 @@
-#  vagrant-example
+#  vagrant-node
 
 vagrant starter kit 
 
