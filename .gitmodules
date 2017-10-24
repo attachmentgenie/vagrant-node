@@ -10,3 +10,36 @@
 [submodule "modules/firewall"]
 	path = production/modules/firewall
 	url = git@github.com:puppetlabs/puppetlabs-firewall.git
+[submodule "production/modules/fail2ban"]
+	path = production/modules/fail2ban
+	url = https://github.com/dhoppe/puppet-fail2ban.git
+[submodule "production/modules/extlib"]
+	path = production/modules/extlib
+	url = https://github.com/voxpupuli/puppet-extlib.git
+[submodule "production/modules/ntp"]
+	path = production/modules/ntp
+	url = https://github.com/puppetlabs/puppetlabs-ntp.git
+[submodule "production/modules/timezone"]
+	path = production/modules/timezone
+	url = https://github.com/attachmentgenie/attachmentgenie-timezone.git
+[submodule "production/modules/puppet"]
+	path = production/modules/puppet
+	url = https://github.com/theforeman/puppet-puppet.git
+[submodule "production/modules/concat"]
+	path = production/modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "production/modules/apt"]
+	path = production/modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "production/modules/ssh"]
+	path = production/modules/ssh
+	url = https://github.com/attachmentgenie/attachmentgenie-ssh.git
+[submodule "production/modules/epel"]
+	path = production/modules/epel
+	url = https://github.com/stahnma/puppet-module-epel.git
+[submodule "production/modules/accounts"]
+	path = production/modules/accounts
+	url = https://github.com/puppetlabs/puppetlabs-accounts.git
+[submodule "production/modules/sudo"]
+	path = production/modules/sudo
+	url = https://github.com/saz/puppet-sudo.git

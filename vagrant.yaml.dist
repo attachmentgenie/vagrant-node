@@ -6,15 +6,15 @@ nodes:
       ip: 192.168.41.42
     - name: centos7
       hostname: centos7.node.vagrant
-      box: bento/centos-7.3
+      box: bento/centos-7.4
       ip: 192.168.41.43
-    - name: debian7
-      hostname: debian.node.vagrant
-      box: bento/debian-7.11
-      ip: 192.168.41.44
     - name: debian8
       hostname: debian.node.vagrant
-      box: bento/debian-8.8
+      box: bento/debian-8.9
+      ip: 192.168.41.44
+    - name: debian9
+      hostname: debian.node.vagrant
+      box: bento/debian-9.1
       ip: 192.168.41.45
     - name: ubuntu1404
       hostname: ubuntu1404.node.vagrant
