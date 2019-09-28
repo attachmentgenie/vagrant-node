@@ -1,6 +1,6 @@
 #  vagrant-node
 
-vagrant starter kit 
+A vagrant setup that basic nodes
 
 ## Requirements
     Virtualbox                  => https://www.virtualbox.org
@@ -24,3 +24,6 @@ vagrant starter kit
     bundle exec rake inspec[centos7] 
 
 ## TLDR
+
+### (G)UI interfaces
+
