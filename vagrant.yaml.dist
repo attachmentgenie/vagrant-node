@@ -3,28 +3,28 @@ required_plugins:
     - vagrant-hostmanager
     - vagrant-puppet-install
 nodes:
-    - name: centos6
-      hostname: centos6.node.vagrant
-      box: bento/centos-6.10
-      ip: 192.168.41.42
     - name: centos7
       hostname: centos7.node.vagrant
-      box: bento/centos-7.6
+      box: bento/centos-7.8
+      ip: 192.168.41.42
+    - name: centos8
+      hostname: centos8.node.vagrant
+      box: bento/centos-8.2
       ip: 192.168.41.43
-    - name: debian8
-      hostname: debian.node.vagrant
-      box: bento/debian-8.11
-      ip: 192.168.41.44
     - name: debian9
-      hostname: debian.node.vagrant
+      hostname: debian9.node.vagrant
       box: bento/debian-9.6
+      ip: 192.168.41.44
+    - name: debian10
+      hostname: debian10.node.vagrant
+      box: bento/debian-10.4
       ip: 192.168.41.45
-    - name: ubuntu1404
-      hostname: ubuntu1404.node.vagrant
-      box: bento/ubuntu-16.04
-      ip: 192.168.41.46
-    - name: ubuntu1604
-      hostname: ubuntu1604.node.vagrant
+    - name: ubuntu1804
+      hostname: ubuntu1804.node.vagrant
       box: bento/ubuntu-18.04
+      ip: 192.168.41.46
+    - name: ubuntu2004
+      hostname: ubuntu2004.node.vagrant
+      box: bento/ubuntu-20.04
       ip: 192.168.41.47
 virtualbox_group: '/Vagrant/node'

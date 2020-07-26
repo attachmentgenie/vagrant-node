@@ -7,8 +7,6 @@ profiles::bootstrap::accounts::accounts:
       - VmGIeyg0Dy
     password: '$6$9ucdBvVxQaR$HbO8.DZiJWMup3v.A8ICH3qSXNItmeGCeXd1Q3XH5cabJHfeHpyK1iOUNJ6L3Mw5JioFLzAbNqwmYgdlT74Gc.'
     purge_sshkeys: true
-    sshkeys:
-      - 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCYid46hRLgWOYwsrmiok2094R3UnQUybiKA8B8NPWnQhzAc4CNNfLsLxSx559QAU0G41rj1sa0CjSqycG0laKr4QxgMJDJ9JaG/yX4vNHHSUrl1yV/ynbjVX+KylDFE1XDBlgcbpgpWWiC7NnvG2igxjFQHbPCRZyuGWxJl6y0N6E805bYgJethg1VjVaDcr9nGST3fbfwSM6V9vRP/p5izd1uX1ULXurLhu9eTKsYJIFPg2+7DAHLXHLoReHtcnJRxMYpL0GpRnfsmtRjKSFj0z9B7bEsaCDZ3atQcQkgtR1Fnsw5/7/pYabWKDcia2YrRC5d7QiFUMZWSrWanN6v'
 profiles::bootstrap::accounts::groups:
   VmGIeyg0Dy:
     gid: 2000
@@ -20,6 +18,4 @@ profiles::bootstrap::fail2ban: true
 profiles::bootstrap::firewall: true
 profiles::bootstrap::ntp: true
 profiles::bootstrap::puppet: true
-profiles::bootstrap::repos: true
-profiles::bootstrap::repositories::epel: true
 profiles::bootstrap::ssh: true

@@ -1,0 +1,4 @@
+---
+profiles::bootstrap::repos: true
+profiles::bootstrap::repositories::epel: true
+...

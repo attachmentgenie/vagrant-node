@@ -1,0 +1,5 @@
+---
+profiles::bootstrap::ntp: false
+profiles::bootstrap::repos: true
+profiles::bootstrap::repositories::epel: true
+...

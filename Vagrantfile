@@ -53,6 +53,7 @@ Vagrant.configure("2") do |config|
       version = :latest
     end
     config.puppet_install.puppet_version = version
+    config.puppet_install.install_url = 'https://raw.githubusercontent.com/attachmentgenie/puppet-install-shell/focal/install_puppet_6_agent.sh'
   end
 
   ###############################################################################
